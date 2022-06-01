@@ -40,7 +40,7 @@ export const VideoPage = () => {
                         height="360"
                         title={index}
                         allowFullScreen
-                        src={`https://www.youtube.com/embed/${data.videoIds[index]}?autoplay=0&fs=1&origin=http://example.com`}
+                        src={`https://www.youtube.com/embed/${data.videoIds[index]}?autoplay=1&fs=1&origin=http://example.com`}
                         frameborder="0"
                       ></iframe>
                     </AccordionItemPanel>
