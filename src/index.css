@@ -83,10 +83,6 @@ nav {
   font-weight: 600;
 }
 
-iframe{
-  width: 80%;
-}
-
 audio{
   margin: 10px;
   width: -webkit-fill-available;
@@ -104,10 +100,6 @@ audio{
   .card {
     display: flex;
     flex-direction: row;
-  }
-
-  iframe{
-    width: 100%;
   }
 
   .accordion__panel{
@@ -137,9 +129,57 @@ audio{
   color: white;
 }
 
+.list-group-item{
+  cursor: pointer;
+}
+
 .back-button, .back-button:hover {
   margin: 5px 5px;
   background: crimson;
   color: white;
 }
 
+.list-group{
+  overflow-y: scroll;
+  height: 20rem;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: crimson; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: red; 
+}
+
+.list-group{
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  padding: 10px;
+}
+
+.list-group-item{
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.list-group-item:active, .list-group-item:focus{
+  background-color: crimson;
+  color: white;
+}
+
+iframe{
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
