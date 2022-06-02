@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import pdfImg from "../img/pdf.png";
 import videoImg from "../img/video.png";
 import audioImg from "../img/audio.png";
+import { Footer } from "../footer";
 
 export const HomePage = () => {
   return (
@@ -55,6 +56,7 @@ export const HomePage = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
