@@ -14,7 +14,7 @@ export const VideoPage = () => {
 
   return (
     <>
-      <div className="container mt-3" style={{ marginBottom: "5rem" }}>
+      <div className="container mt-3 mt-lg-5" style={{ marginBottom: "5rem" }}>
         <div className="row">
           {isLoading ? (
             <div className="spinner-border " role="status">

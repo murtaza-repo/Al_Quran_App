@@ -5,7 +5,6 @@ import { PdfPage } from './pdf';
 import { VideoPage } from './video';
 import { AudioPage } from './audio'; 
 import { NavBar } from './navBar';
-import { Footer } from './footer/Footer';
 
  
 const routes = [
@@ -42,6 +41,5 @@ export const Routes = () => (
             </Route>
         ))}
         </Switch>
-        <Footer />
     </Router>
 )
