@@ -7,7 +7,6 @@ import {
   AccordionItemPanel,
 } from "react-accessible-accordion";
 
-import { BackButton } from "../ui";
 
 // Demo styles, see 'Styles' section below for some notes on use.
 import "react-accessible-accordion/dist/fancy-example.css";
@@ -30,7 +29,6 @@ export const AudioPage = () => {
 
   return (
     <>
-      <BackButton />
       <div className="container mt-3" style={{ marginBottom: "5rem" }}>
         <div className="row">
           <div className="col text-center" style={{ color: "crimson" }}>

@@ -97,15 +97,19 @@ audio{
     font-size: x-large;
   }
 
-  .card {
-    display: flex;
-    flex-direction: row;
-  }
-
   .accordion__panel{
     padding: unset !important;
   }
 }
+
+.backBtn{
+  position: absolute;
+  left: 0;
+  padding: 10px;
+}
+
+
+
 
 .borderImg {
   border: 10px solid transparent;
@@ -118,6 +122,13 @@ audio{
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+/* //simple max-width query */
+@media screen and ( max-height: 680px ){
+  footer{
+    display: none;
+  }
 }
 
 .accordion__button:focus,

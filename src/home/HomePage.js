@@ -22,7 +22,7 @@ export const HomePage = () => {
           />
         </div>
       </div>
-      <div className="container .vertical-center-height fade-in mt-5">
+      <div className="container vertical-center fade-in mt-5">
         <div className="row mt-3">
           <div className="col-md-4">
             <Link to={"/pdf"} className="text-decoration-none text-black">
